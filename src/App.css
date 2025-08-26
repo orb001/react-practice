@@ -1,42 +1,38 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.profile {
+  width: 300px;
   text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  width: 300px;
+  margin-bottom: 1rem;
+  box-shadow: 7px 5px 23px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 5px 23px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 5px 23px -9px rgba(0, 0, 0, 0.75);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new {
+  position: absolute;
+  font-size: 14px;
+  left: 70%;
+  top: 10%;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: aquamarine;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
